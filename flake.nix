@@ -24,8 +24,8 @@
         ...
       }: {
         packages.nixosImg = pkgs.fetchurl {
-          url = "https://hydra.nixos.org/build/237110262/download/1/nixos-minimal-23.11pre531102.fdd898f8f79e-aarch64-linux.iso";
-          sha256 = "sha256-PF6EfDXHJDQHHHN+fXUKBcRIRszvpQrrWmIyltFHn5c=";
+          url = "https://releases.nixos.org/nixos/24.05/nixos-24.05.5744.dc2e0028d274/nixos-minimal-24.05.5744.dc2e0028d274-aarch64-linux.iso";
+          sha256 = "08724ysg17v9r0rq423bm64ww6p1m3xhzg8iyp8wgrs0ynwlnwf1";
         };
         packages.utm = pkgs.utm;
         packages.nixosCmd = pkgs.writeShellApplication {
